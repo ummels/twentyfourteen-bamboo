@@ -1,8 +1,8 @@
 <?php
 
 function load_fonts() {
-         wp_register_style('roboto', 'http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Source+Code+Pro:500');
-         wp_enqueue_style( 'roboto');
+         wp_register_style('merriweather', 'http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic|Merriweather+Sans:400,700|Cousine');
+         wp_enqueue_style( 'merriweather');
 }
 
 add_action('wp_print_styles', 'load_fonts');
