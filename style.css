@@ -172,6 +172,8 @@ input[type="submit"]:active {
 }
 
 .entry-meta .tag-links a {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 12px;
     text-transform: none;
 }
 
