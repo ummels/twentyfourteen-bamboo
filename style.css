@@ -139,6 +139,10 @@ input[type="submit"]:active {
     font-weight: 700;
 }
 
+.primary-navigation {
+    text-transform: none;
+}
+
 /**
  * 6.2 Entry Header
  */
@@ -308,6 +312,10 @@ input[type="submit"]:active {
     border-top: 1px solid #3a6738;
 }
 
+.content-sidebar {
+    color: #2b2b2b;
+}
+
 /**
  * 7.1 Widgets
  */
@@ -410,10 +418,23 @@ input[type="submit"]:active {
 }
 
 .content-sidebar .widget .widget-title {
+    border: none;
     text-transform: none;
 }
 
 .content-sidebar .widget .widget-title a:hover {
+    color: #2b802b;
+}
+
+.content-sidebar .widget .entry-meta a {
+    color: #767676;
+}
+
+.content-sidebar .widget .entry-meta a:hover {
+    color: #2b802b;
+}
+
+.content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
     color: #2b802b;
 }
 
@@ -467,8 +488,4 @@ input[type="submit"]:active {
     #secondary {
 	background-color: transparent;
     }
-}
-
-.primary-navigation {
-    text-transform: none;
 }
