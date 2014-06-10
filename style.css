@@ -315,6 +315,47 @@ input[type="submit"]:active {
 }
 
 /**
+ * 6.15 Social Sharing
+ */
+
+.dvk-social-sharing span.ss-ask {
+   display: none;
+}
+
+.dvk-social-sharing a {
+   color: #767676;
+   display: inline-block;
+   overflow: hidden;
+   width: 24px;
+   height: 24px;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   font-family: 'Genericons';
+   font-size: 24px;
+   line-height: 1;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-right: 2px;
+}
+
+.dvk-social-sharing a:hover {
+   color: #2b802b;
+   text-decoration: none;
+}
+
+.dvk-social-sharing a.ss-facebook:before {
+   content: "\f203";
+}
+
+.dvk-social-sharing a.ss-googleplus:before {
+   content: "\f206";
+}
+
+.dvk-social-sharing a.ss-twitter:before {
+   content: "\f202";
+}
+
+/**
  * 7.0 Sidebars
  */
 
