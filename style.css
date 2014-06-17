@@ -26,13 +26,8 @@ textarea {
     font-family: 'Merriweather', Georgia, serif;
 }
 
-a {
-    color: #2b802b;
-}
-
-a:active,
-a:hover {
-    color: #2b802b;
+a, a:active, a:hover {
+    color: #448844;
 }
 
 h1,
@@ -59,18 +54,17 @@ pre, pre code {
 }
 
 pre {
-    //border: none;
     padding: 0px;
     white-space: pre;
     word-wrap: normal;
 }
 
 ::selection {
-	background: #467843;
+	background: #448844;
 }
 
 ::-moz-selection {
-	background: #467843;
+	background: #448844;
 }
 
 /**
@@ -82,7 +76,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-    background-color: #2b802b;
+    background-color: #3a6a3a;
     color: #fff;
     text-transform: none;
 }
@@ -97,7 +91,7 @@ input[type="reset"]:hover,
 input[type="reset"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
-    background-color: #339933;
+    background-color: #448844;
     color: #fff;
 }
 
@@ -106,7 +100,7 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-    background-color: #35a135;
+    background-color: #448844;
 }
 
 /**
@@ -114,20 +108,20 @@ input[type="submit"]:active {
  */
 
 .site-header {
-    background-color: #3a6738;
+    background-color: #3a6a3a;
 }
 
 .search-toggle {
-    background-color: #3a6738;
+    background-color: #3a6a3a;
 }
 
 .search-toggle:hover,
 .search-toggle.active {
-    background-color: #467843;
+    background-color: #448844;
 }
 
 .search-box {
-    background-color: #467843;
+    background-color: #448844;
 }
 
 /**
@@ -163,7 +157,7 @@ input[type="submit"]:active {
 }
 
 .entry-title a:hover {
-	color: #2b802b;
+	color: #448844;
 }
 
 /**
@@ -175,7 +169,7 @@ input[type="submit"]:active {
 }
 
 .entry-meta a:hover {
-	color: #2b802b;
+	color: #448844;
 }
 
 .cat-links {
@@ -183,7 +177,7 @@ input[type="submit"]:active {
 }
 
 .cat-links a:hover {
-    color: #2b802b;
+    color: #448844;
 }
 
 .entry-meta .tag-links a {
@@ -193,11 +187,11 @@ input[type="submit"]:active {
 }
 
 .entry-meta .tag-links a:hover {
-    background-color: #3a6738;
+    background-color: #3a6a3a;
 }
 
 .entry-meta .tag-links a:hover:before {
-    border-right-color: #3a6738;
+    border-right-color: #3a6a3a;
 }
 
 /**
@@ -232,11 +226,11 @@ input[type="submit"]:active {
 }
 
 .entry-content .edit-link a:hover {
-    color: #2b802b;
+    color: #448844;
 }
 
 .hentry .mejs-controls .mejs-time-rail .mejs-time-current {
-    background: #3a6738;
+    background: #3a6a3a;
 }
 
 .page-links {
@@ -244,8 +238,8 @@ input[type="submit"]:active {
 }
 
 .page-links a:hover {
-    background: #3a6738;
-    border: 1px solid #3a6738;
+    background: #3a6a3a;
+    border: 1px solid #3a6a3a;
 }
 
 /**
@@ -258,11 +252,11 @@ input[type="submit"]:active {
 
 .post-navigation a:hover,
 .image-navigation a:hover {
-    color: #2b802b;
+    color: #448844;
 }
 
 .paging-navigation {
-    border-top: 5px solid #3a6738;
+    border-top: 5px solid #3a6a3a;
 }
 
 .paging-navigation .page-numbers {
@@ -270,11 +264,11 @@ input[type="submit"]:active {
 }
 
 .paging-navigation .page-numbers.current {
-    border-top: 5px solid #ccc;
+    border-top: 5px solid rgba(255, 255, 255, 0.5);
 }
 
 .paging-navigation a:hover {
-    border-top: 5px solid #ddd;
+    border-top: 5px solid rgba(255, 255, 255, 0.5);
 }
 
 /**
@@ -299,7 +293,7 @@ input[type="submit"]:active {
 .comment-list .pingback a:hover,
 .comment-list .trackback a:hover,
 .comment-metadata a:hover {
-    color: #2b802b;
+    color: #448844;
 }
 
 .no-comments {
@@ -307,7 +301,7 @@ input[type="submit"]:active {
 }
 
 .comment-reply-title small a:hover {
-    color: #2b802b;
+    color: #448844;
 }
 
 .comment-navigation {
@@ -339,7 +333,7 @@ input[type="submit"]:active {
 }
 
 .dvk-social-sharing a:hover {
-   color: #2b802b;
+   color: #448844;
    text-decoration: none;
 }
 
@@ -360,8 +354,8 @@ input[type="submit"]:active {
  */
 
 #secondary {
-    background-color: #3a6738;
-    border-top: 1px solid #3a6738;
+    background-color: #3a6a3a;
+    border-top: 1px solid #3a6a3a;
 }
 
 .content-sidebar {
@@ -379,7 +373,7 @@ input[type="submit"]:active {
 
 .widget mark,
 .widget ins {
-    color: #3a6738;
+    color: #3a6a3a;
 }
 
 .widget button,
@@ -387,7 +381,7 @@ input[type="submit"]:active {
 .widget input[type="button"],
 .widget input[type="reset"],
 .widget input[type="submit"] {
-    background-color: #2b802b;
+    background-color: #3a6a3a;
 }
 
 .widget input[type="button"]:hover,
@@ -396,13 +390,13 @@ input[type="submit"]:active {
 .widget input[type="reset"]:focus,
 .widget input[type="submit"]:hover,
 .widget input[type="submit"]:focus {
-    background-color: #393;
+    background-color: #448844;
 }
 
 .widget input[type="button"]:active,
 .widget input[type="reset"]:active,
 .widget input[type="submit"]:active {
-    background-color: #35a135;
+    background-color: #448844;
 }
 
 .widget .widget-title {
@@ -419,11 +413,11 @@ input[type="submit"]:active {
 }
 
 .widget_calendar tbody a {
-    background-color: #2b802b;
+    background-color: #448844;
 }
 
 .widget_calendar tbody a:hover {
-    background-color: #393;
+    background-color: #3a6a3a;
 }
 
 .widget_twentyfourteen_ephemera .entry-meta a:hover {
@@ -440,18 +434,17 @@ input[type="submit"]:active {
  */
 
 .content-sidebar .widget a {
-    color: #2b802b;
+    color: #448844;
 }
 
 .content-sidebar .widget a:hover {
-    color: #2b802b;
-    text-decoration: underline;    
+    color: #448844;
 }
 
 .content-sidebar .widget input[type="button"],
 .content-sidebar .widget input[type="reset"],
 .content-sidebar .widget input[type="submit"] {
-    background-color: #2b802b;
+    background-color: #3a6a63a;
 }
 
 .content-sidebar .widget input[type="button"]:hover,
@@ -460,13 +453,13 @@ input[type="submit"]:active {
 .content-sidebar .widget input[type="reset"]:focus,
 .content-sidebar .widget input[type="submit"]:hover,
 .content-sidebar .widget input[type="submit"]:focus {
-    background-color: #393;
+    background-color: #448844;
 }
 
 .content-sidebar .widget input[type="button"]:active,
 .content-sidebar .widget input[type="reset"]:active,
 .content-sidebar .widget input[type="submit"]:active {
-    background-color: #35a135;
+    background-color: #448844;
 }
 
 .content-sidebar .widget .widget-title {
@@ -475,7 +468,7 @@ input[type="submit"]:active {
 }
 
 .content-sidebar .widget .widget-title a:hover {
-    color: #2b802b;
+    color: #448844;
 }
 
 .content-sidebar .widget .entry-meta a {
@@ -483,11 +476,11 @@ input[type="submit"]:active {
 }
 
 .content-sidebar .widget .entry-meta a:hover {
-    color: #2b802b;
+    color: #448844;
 }
 
 .content-sidebar .widget_twentyfourteen_ephemera .entry-meta a:hover {
-    color: #2b802b;
+    color: #448844;
 }
 
 /**
@@ -495,7 +488,7 @@ input[type="submit"]:active {
  */
 
 .site-footer {
-    background-color: #3a6738;
+    background-color: #3a6a3a;
 }
 
 .site-info a:hover {
@@ -508,11 +501,11 @@ input[type="submit"]:active {
  */
 
 .featured-content {
-    background: #3a6738;
+    background: #3a6a3a;
 }
 
 .featured-content .entry-header {
-    background-color: #3a6738;
+    background-color: #3a6a3a;
 }
 
 .featured-content a:hover {
@@ -525,19 +518,49 @@ input[type="submit"]:active {
 }
 
 .slider-control-paging {
-    background-color: #3a6738;
+    background-color: #3a6a3a;
 }
 
 /**
  * 11.0 Media Queries
  */
 
+@media screen and (min-width: 783px) {
+    .primary-navigation ul ul {
+	background-color: #448844;
+    }
+
+    .primary-navigation li:hover > a,
+    .primary-navigation li.focus > a {
+	background-color: #448844;
+    }
+
+    .primary-navigation ul ul a:hover,
+    .primary-navigation ul ul li.focus > a {
+	background-color: #448844;
+    }
+}
+
 @media screen and (min-width: 1008px) {
     .site:before {
-        background-color: #3a6738;
+        background-color: #3a6a3a;
     }
 
     #secondary {
 	background-color: transparent;
+    }
+
+    .secondary-navigation ul ul {
+	background-color: #448844;
+    }
+
+    .secondary-navigation li:hover > a,
+    .secondary-navigation li.focus > a {
+	background-color: #448844;
+    }
+
+    .secondary-navigation ul ul a:hover,
+    .secondary-navigation ul ul li.focus > a {
+	background-color: #448844;
     }
 }
