@@ -145,6 +145,9 @@ input[type="submit"]:active {
 }
 
 .primary-navigation {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
     text-transform: none;
 }
 
