@@ -151,6 +151,16 @@ input[type="submit"]:active {
     text-transform: none;
 }
 
+.menu-toggle {
+    background-color: #3a6a3a;
+}
+
+.menu-toggle:active,
+.menu-toggle:focus,
+.menu-toggle:hover {
+    background-color: #448844;
+}
+
 /**
  * 6.2 Entry Header
  */
@@ -160,7 +170,7 @@ input[type="submit"]:active {
 }
 
 .entry-title a:hover {
-	color: #448844;
+    color: #448844;
 }
 
 /**
@@ -529,8 +539,16 @@ input[type="submit"]:active {
  */
 
 @media screen and (min-width: 783px) {
+    .primary-navigation {
+        margin: 0 0 0 -12px;
+    }
+
     .primary-navigation ul ul {
 	background-color: #448844;
+    }
+
+    .primary-navigation li.current_page_item > a {
+        background-color: #448844;
     }
 
     .primary-navigation li:hover > a,
