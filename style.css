@@ -26,7 +26,9 @@ textarea {
     font-family: 'Merriweather', Georgia, serif;
 }
 
-a, a:active, a:hover {
+a,
+a:active,
+a:hover {
     color: #448844;
 }
 
@@ -162,6 +164,10 @@ input[type="submit"]:active {
 }
 
 /**
+ * 6.0 Content
+ */
+
+/**
  * 6.2 Entry Header
  */
 
@@ -277,11 +283,11 @@ input[type="submit"]:active {
 }
 
 .paging-navigation .page-numbers.current {
-    border-top: 5px solid rgba(255, 255, 255, 0.5);
+    border-top: 5px solid rgba(255, 255, 255, 0.6);
 }
 
 .paging-navigation a:hover {
-    border-top: 5px solid rgba(255, 255, 255, 0.5);
+    border-top: 5px solid rgba(255, 255, 255, 0.6);
 }
 
 /**
@@ -292,7 +298,7 @@ input[type="submit"]:active {
 .comments-title {
     font-family: 'Merriweather', Georgia, serif;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 700;
     line-height: 1.5;
     text-transform: none;
 }
@@ -369,6 +375,7 @@ input[type="submit"]:active {
 #secondary {
     background-color: #3a6a3a;
     border-top: 1px solid #3a6a3a;
+    color: #fff;
 }
 
 .content-sidebar {
@@ -439,7 +446,7 @@ input[type="submit"]:active {
 
 .widget_twentyfourteen_ephemera .entry-meta a:hover {
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .widget_twentyfourteen_ephemera .post-format-archive-link {
@@ -535,7 +542,6 @@ input[type="submit"]:active {
 
 .site-info a:hover {
     color: #fff;
-    text-decoration: underline;
 }
 
 /**
