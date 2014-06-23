@@ -308,11 +308,19 @@ input[type="submit"]:active {
     text-transform: none;
 }
 
+.comment-list .reply a:hover {
+    text-decoration: underline;
+}
+
 .comment-author a:hover,
 .comment-list .pingback a:hover,
 .comment-list .trackback a:hover,
 .comment-metadata a:hover {
     color: #448844;
+}
+
+.comment-respond a:hover {
+    text-decoration: underline;
 }
 
 .no-comments {
