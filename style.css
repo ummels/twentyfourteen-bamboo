@@ -465,6 +465,45 @@ input[type="submit"]:active {
     text-transform: none;
 }
 
+.widget_twentyfourteen_bamboo_social a {
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Genericons';
+    font-size: 16px;
+    line-height: 1;
+    vertical-align: top;
+    margin-right: 4px;
+}
+
+.widget_twentyfourteen_bamboo_social a:hover {
+    text-decoration: none;
+}
+
+.widget_twentyfourteen_bamboo_social a.twitter-profile:before {
+    content: "\f202";
+}
+
+.widget_twentyfourteen_bamboo_social a.facebook-profile:before {
+    content: "\f203";
+}
+
+.widget_twentyfourteen_bamboo_social a.googleplus-profile:before {
+    content: "\f206";
+}
+
+.widget_twentyfourteen_bamboo_social a.github-profile:before {
+    content: "\f200";
+}
+
+.widget_twentyfourteen_bamboo_social a.feed-link:before {
+    content: "\f413";
+}
+
+.widget_twentyfourteen_bamboo_social a.email-link:before {
+    content: "\f410";
+}
+
 .widget_archive li,
 .widget_categories li,
 .widget_links li,

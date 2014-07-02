@@ -20,9 +20,15 @@ function init_highlight() {
     echo '<script>hljs.initHighlightingOnLoad();</script>' . "\n";
 }
 
+function register_social_widget() {
+  require get_stylesheet_directory() . '/inc/widgets.php';
+  register_widget('Twenty_Fourteen_Bamboo_Social_Widget');
+}
+
 add_action('wp_enqueue_scripts', 'disable_lato', 11);
 add_action('wp_enqueue_scripts', 'load_fonts');
 add_action('wp_enqueue_scripts', 'load_highlight');
 add_action('wp_footer', 'init_highlight', 25);
+add_action('widgets_init', 'register_social_widget');
 
 ?>
