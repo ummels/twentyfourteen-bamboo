@@ -10,9 +10,9 @@ function load_fonts() {
 }
 
 function load_highlight() {
-    wp_register_script('highlight',  get_stylesheet_directory_uri() . '/highlight.pack.js', false, '8.0', true);
+    wp_register_script('highlight',  get_stylesheet_directory_uri() . '/highlight-js/highlight.pack.js', false, '8.0', true);
     wp_enqueue_script('highlight');
-    wp_register_style('highlight', get_stylesheet_directory_uri() . '/googlecode.css', false, '8.0', 'screen');
+    wp_register_style('highlight', get_stylesheet_directory_uri() . '/highlight-js/googlecode.css', false, '8.0', 'screen');
     wp_enqueue_style('highlight');
 }
 
