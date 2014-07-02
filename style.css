@@ -1,12 +1,16 @@
 /*
- Theme Name:   Twenty Fourteen Bamboo
- Description:  Twenty Fourteen Bamboo Theme
- Author:       Michael Ummels
- Author URI:   http://www.ummels.de
- Template:     twentyfourteen
- Version:      1.0.0
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  twentyfourteen-bamboo
+ Theme Name: Twenty Fourteen Bamboo
+ Theme URI: https://www.github.com/ummels/twentyfourteen-bamboo
+ Description: Twenty Fourteen Bamboo Theme
+ Author: Michael Ummels
+ Author URI: http://www.ummels.de
+ Description: A greener version of Wordpress' twentyfourteen theme
+ Template: twentyfourteen
+ Version: 0.9
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: bamboo, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+ Text Domain: twentyfourteen-bamboo
 */
 
 @import url("../twentyfourteen/style.css");
