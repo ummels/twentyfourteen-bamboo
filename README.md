@@ -1,7 +1,8 @@
 Twentyfourteen Bamboo Theme
 ===========================
 
-This is a greener version of [Wordpress][]' default [Twentyfourteen][] theme.
+This is a greener version of [Wordpress][]' default [Twentyfourteen][] theme,
+implemented as a child theme and used on my [website](http://www.ummels.de).
 
 Installation
 ------------
