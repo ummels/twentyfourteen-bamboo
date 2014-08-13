@@ -66,11 +66,11 @@ pre {
 }
 
 ::selection {
-	background: #448844;
+    background: #448844;
 }
 
 ::-moz-selection {
-	background: #448844;
+    background: #448844;
 }
 
 /**
@@ -192,7 +192,7 @@ input[type="submit"]:active {
 }
 
 .entry-meta a:hover {
-	color: #448844;
+    color: #448844;
 }
 
 .cat-links {
@@ -343,37 +343,40 @@ input[type="submit"]:active {
  * 6.15 Social Sharing
  */
 
-.entry-content .social-sharing a {
-   color: #767676;
-   display: inline-block;
-   overflow: hidden;
-   width: 20px;
-   height: 20px;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-   font-family: 'Genericons';
-   font-size: 20px;
-   line-height: 1;
-   text-decoration: none;
-   vertical-align: middle;
-   margin-right: 2px;
+.social-sharing a {
+    display: inline-block;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Genericons';
+    line-height: 1;
+    text-decoration: none;
+    vertical-align: middle;
 }
 
-.entry-content .social-sharing a:hover {
-   color: #448844;
-   text-decoration: none;
+.social-sharing a {
+    color: #767676;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin-right: 4px;
 }
 
-.entry-content .social-sharing a.facebook:before {
-   content: "\f203";
+.social-sharing a:hover {
+    color: #448844;
+    text-decoration: none;
 }
 
-.entry-content .social-sharing a.gplus:before {
-   content: "\f206";
+.social-sharing a.facebook:before {
+    content: "\f203";
 }
 
-.entry-content .social-sharing a.twitter:before {
-   content: "\f202";
+.social-sharing a.gplus:before {
+    content: "\f206";
+}
+
+.social-sharing a.twitter:before {
+    content: "\f202";
 }
 
 /**
@@ -397,6 +400,19 @@ input[type="submit"]:active {
 .widget a:hover {
     color: #fff;
     text-decoration: underline;
+}
+
+.widget .social-sharing a {
+   color: rgba(255, 255, 255, 0.7);
+   width: 16px;
+   height: 16px;
+   font-size: 16px;
+   margin-right: 3px;
+}
+
+.widget .social-sharing a:hover {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .widget mark,
@@ -449,7 +465,7 @@ input[type="submit"]:active {
 }
 
 .widget_twentyfourteen_ephemera > ol > li {
-	border-bottom: 0;
+    border-bottom: 0;
 }
 
 .widget_twentyfourteen_ephemera .entry-meta a:hover {
@@ -462,6 +478,7 @@ input[type="submit"]:active {
 }
 
 .widget_twentyfourteen_bamboo_social a {
+    color: rgba(255, 255, 255, 0.7);
     display: inline-block;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -473,6 +490,7 @@ input[type="submit"]:active {
 }
 
 .widget_twentyfourteen_bamboo_social a:hover {
+    color: #fff;
     text-decoration: none;
 }
 
@@ -535,6 +553,19 @@ input[type="submit"]:active {
 
 .content-sidebar .widget a:hover {
     color: #448844;
+}
+
+.content-sidebar .widget .social-sharing a {
+    color: #767676;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    margin-right: 3px;
+}
+
+.content-sidebar .widget .social-sharing a:hover {
+    color: #448844;
+    text-decoration: none;
 }
 
 .content-sidebar .widget input[type="button"],
