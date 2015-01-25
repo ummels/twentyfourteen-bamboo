@@ -543,6 +543,13 @@ input[type="submit"]:active {
     padding-bottom: 0;
 }
 
+.widget_tag_cloud  {
+    -webkit-hyphens: none;
+    -moz-hyphens:    none;
+    -ms-hyphens:     none;
+    hyphens:         none;
+}
+
 /**
  * 7.2 Content Sidebar Widgets
  */
